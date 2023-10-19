@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+p{
+    font-size: 3rem;
+    padding: 8px;
+    letter-spacing: 2px;
+}
+.number {
+    margin-top: 10px;
+}
+button {
+    font-size: 2rem;
+    color: blue;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    border-color: lightblue;
+    background-color: white;
+    margin-left: 10px;
+}

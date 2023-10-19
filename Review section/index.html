@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Section</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="review">
+            <h1>Our Reviews</h1>
+            <span><hr></span>
+        </div>
+        <div class="card">
+            <img alt="user-image" id="image">
+            <h3 id="name"></h3>
+            <h3 id="designation"></h3>
+            <p id="description"></p>
+            <div class="icons">
+                <i class="fa-solid fa-less-than" onclick="backward()"></i>
+                <i class="fa-solid fa-greater-than" onclick="forward()"></i>
+            </div>
+            <div class="button-extra">
+                <button>Surprise Me</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+p{
+    background-color: black;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+button{
+    font-size: 2rem;
+    padding: 6px;
+    letter-spacing: 2px;
+    background-color: white;
+    border-radius: 10px;
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #eef4fa;
+    width: 100vw;
+    height: 100vh;
+}
+.review {
+    width: max-content;
+    height: max-content;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    padding: 10px;
+}
+.review span hr {
+    width: 80px;
+    color: blue;
+}
+.card {
+    border: 2px solid #ffffff;
+    box-shadow: 5px 5px 5px 8px lightgray;
+    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #ffffff;
+}
+.card p{
+    text-align: center;
+}
+.card img{
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+.card #name {
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color: #162835;
+}
+.card #designation{
+    text-transform: uppercase;
+    font-size: smaller;
+    color: #469adf;
+}
+.card #description {
+    color: #747c87;
+}
+.card .icons {
+    margin-top: 10px;
+}
+.card .button-extra button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #469adf;
+    background-color: #a5d3f4;
+    color: blue;
+    font-size: 10px;
+}
+.fa-less-than {
+    margin-right: 5px !important;
+    color: #9dcbef !important;
+    font-weight: 900 !important;
+}
+.fa-greater-than {
+    margin-left: 5px !important;
+    color: #9dcbef !important;
+    font-weight: 900 !important;
+}
