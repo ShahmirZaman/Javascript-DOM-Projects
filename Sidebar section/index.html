@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Section</title>
+    <!-- Font-Awesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bars">
+        <i class="fa fa-bars" onclick="barHandler()"></i>
+    </div>
+    <div class="sidebar hidden">
+        <div class="logo">
+            <h2>Coding<span>Addict</span></h2>
+            <span><button class="btn" onclick="crossHandler()">X</button></span>
+        </div>
+        <div class="sidebar-list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-icons">
+            <ul><li><i class="fa-brands fa-facebook social-logo"></i></li></ul>
+            <ul><li><i class="fa-brands fa-twitter social-logo"></i></li></ul>
+            <ul><li><i class="fa-brands fa-linkedin social-logo"></i></li></ul>
+            <ul><li><i class="fa-brands fa-square-behance social-logo"></i></li></ul>
+            <ul><li><i class="fa-brands fa-discord social-logo"></i></li></ul>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
